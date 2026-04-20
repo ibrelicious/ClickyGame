@@ -24,13 +24,27 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! Lets skadoodle your mind</p>
+<!-- Add your site or application content here -->
+<p>Hello world! Lets skadoodle your mind</p>
 
-  <p id="scoreDisplay">0</p>
-  <button id="button1">Click me</button>
+<p id="scoreDisplay">0</p>
+<p id="timerDisplay">60</p>
+<button id="button1">Click me</button>
 
-  <script src="js/app.js"></script>
+<label id="label1" for="name">Name (3 to 16 characters):</label>
+
+<input
+  type="text"
+  id="name"
+  name="name"
+  required
+  minlength="3"
+  maxlength="8"
+  size="16" />
+
+<button id="button2">Submit High Score</button>
+
+<script src="js/app.js"></script>
 
 </body>
 
